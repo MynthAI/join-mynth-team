@@ -21,42 +21,27 @@ understand your expertise and fit for our team.
 
 ### Task 1: Create Something New
 
-**Objective:** Use Aiken to build a simple Cardano smart contract for
-locking ADA.
+**Objective:** Create two microservices that send messages between each
+other.
 
-  - **Goal:** Develop a Cardano smart contract that enables users to
-    deposit ADA, which can only be withdrawn by the contract’s owner.
-  - **Skills Tested:** Understanding of Cardano, functional programming,
-    ability to learn and apply new development tools, and smart contract
-    development.
-  - **[Read More About Task 1](assignment1/README.md)**
+- **Goal:** Develop one service that can transmit instructions to
+  another service, without either service depending on the other.
+- **Skills Tested:** Microservices architecture, distributed systems,
+  decoupled architecture, asynchronous messaging, API design, message
+  queuing, compartmentalization, and backend development.
+- **[Read More About Task 1](assignment1/README.md)**
 
 ### Task 2: Refactor Something Existing
 
 **Objective:** Enhance an existing TypeScript module to improve its
 readability and maintainability.
 
-  - **Goal:** Refactor provided TypeScript code to enhance its
-    structure, readability, and performance without altering its
-    functionality.
-  - **Skills Tested:** Proficiency in TypeScript, code optimization,
-    understanding existing systems, and application of clean code
-    principles.
-  - **[Read More About Task 2](assignment2/README.md)**
-
-### Task 3: Extend Something Real
-
-**Objective:** Modify Node.js to support ESM loaders within workers, as
-per the feature request in [Node.js issue
-\#47747](https://github.com/nodejs/node/issues/47747).
-
-  - **Goal:** Extend the Node.js core to enable ESM loaders in worker
-    threads, enhancing the modularity and functionality of Node.js
-    applications.
-  - **Skills Tested:** Deep understanding of JavaScript and Node.js
-    internals, ability to interact with and contribute to open-source
-    projects.
-  - **[Read More About Task 3](assignment3/README.md)**
+- **Goal:** Refactor provided TypeScript code to enhance its structure,
+  readability, and performance without altering its functionality.
+- **Skills Tested:** Proficiency in TypeScript, code optimization,
+  understanding existing systems, and application of clean code
+  principles.
+- **[Read More About Task 2](assignment2/README.md)**
 
 ## Submission Guidelines
 
@@ -67,22 +52,22 @@ per the feature request in [Node.js issue
 3.  **Submit Your Work:** Send your completed project to `dev@mynth.ai`.
     Please include a link to a GitHub repository containing your work.
     The repository should contain:
-      - All source code files.
-      - A detailed `README.md` explaining your project, how to set it
-        up, and how to run it.
-      - Any documentation that helps explain your development process
-        and decisions.
+    - All source code files.
+    - A detailed `README.md` explaining your project, how to set it up,
+      and how to run it.
+    - Any documentation that helps explain your development process and
+      decisions.
 
 ## Evaluation Criteria
 
-  - **Learning and Adaptability:** Your ability to learn new
-    technologies and adapt to different coding environments.
-  - **Problem Solving:** The effectiveness and creativity of your
-    solution.
-  - **Code Quality:** The readability, maintainability, and performance
-    of your code.
-  - **Documentation and Communication:** How well you document your code
-    and articulate your development process.
+- **Learning and Adaptability:** Your ability to learn new technologies
+  and adapt to different coding environments.
+- **Problem Solving:** The effectiveness and creativity of your
+  solution.
+- **Code Quality:** The readability, maintainability, and performance of
+  your code.
+- **Documentation and Communication:** How well you document your code
+  and articulate your development process.
 
 ## Note to Candidates
 
@@ -92,4 +77,4 @@ makes you a great fit for our team. We look forward to reviewing your
 innovative solutions and learning more about your unique approach to
 solving complex problems.
 
-Good luck, and we hope to welcome you aboard\!
+Good luck, and we hope to welcome you aboard!

@@ -1,73 +1,71 @@
 # Assignment Overview
 
-**Objective:** Create a Cardano smart contract that allows users to
-deposit ADA into the contract and only the owner of the contract can
-withdraw it.
+**Objective:** Create two microservices that send messages between each
+other.
 
-**Purpose:** This task is designed to introduce you to Cardano smart
-contract development and assess your ability to learn Cardano
-development tools, understand the basics of Plutus, Aiken, and implement
-a straightforward smart contract.
+**Purpose:** This task is designed to assess your ability to build
+decoupled, scalable, and efficient microservices. By implementing
+communication between two independent services, you will demonstrate
+your understanding of microservices architecture, distributed systems,
+and asynchronous messaging patterns.
 
 ## Task Requirements
 
 1.  **Research Phase:**
-    
-      - Familiarize yourself with the Cardano blockchain.
-      - Learn about Aiken, a smart contract language for Cardano, by
-        reviewing the official
-      - documentation, tutorials, and any relevant developer resources.
-      - Understand the concept of eUTxO as it applies to Cardano.
-
+    - Understand the principles of microservices architecture and how it
+      facilitates scalability and maintainability.
+    - Research different communication patterns for microservices,
+      including synchronous and asynchronous messaging approaches.
+    - Learn about different methods of deploying and managing
+      microservices.
 2.  **Development Phase:**
-    
-      - Install necessary development tools for Cardano and Aiken smart
-        contract development.
-      - Set up a nodejs repository with Lucid for interacting with the
-        on-chain contract.
-      - Develop a smart contract using Aiken that allows users to
-        deposit ADA into the contract.
-      - Implement a withdrawal feature that is only callable by the
-        depositor, allowing them to withdraw ADA from the contract.
-
+    - Implement two microservices that can exchange messages while
+      remaining independent of each other.
+    - Use an asynchronous messaging system to ensure services
+      communicate without direct dependencies.
+    - Develop APIs for both services to expose their functionality.
+    - Ensure both services can run independently and communicate without
+      hard dependencies.
 3.  **Testing and Documentation:**
-    
-      - Write unit tests for your smart contract to ensure that deposits
-        and withdrawals work as expected, and that unauthorized users
-        cannot withdraw funds.
-      - Document your learning process, any challenges you encountered,
-        and how you overcame them. Also, include instructions on how to
-        set up, test, and interact with your smart contract.
+    - Write unit and integration tests to validate that the
+      microservices communicate correctly and handle messages as
+      expected.
+    - Document your implementation, detailing the architecture, design
+      decisions, and communication mechanism used.
+    - Provide a `README.md` with setup instructions, including how to
+      deploy, test, and run the microservices.
 
 ## Deliverables
 
 A GitHub repository containing:
 
-  - The Aiken smart contract code.
-  - Unit tests for the smart contract written in TypeScript.
-  - A README file with:
-      - A brief overview of the smart contract’s functionality.
-      - Instructions for setting up the development environment,
-        deploying the smart contract, and running the tests.
-      - A summary of your learning experience, including resources that
-        you found helpful and any difficulties you faced.
+- Source code for both microservices.
+- Configuration files for the chosen messaging infrastructure (if
+  applicable).
+- Unit and integration tests.
+- A `README.md` file with:
+  - An overview of the microservices and their communication method.
+  - Instructions for setting up the development environment, running the
+    services, and executing tests.
+  - A summary of challenges faced and how they were addressed.
 
 ## Evaluation Criteria
 
-  - **Learning and Research:** Ability to understand and apply new
-    concepts related to Cardano and Plutus development.
-  - **Problem Solving:** Effectiveness in creating a solution that meets
-    the given requirements.
-  - **Code Quality:** Readability, structure, and adherence to best
-    practices in software development.
-  - **Documentation and Communication:** Clarity in documentation,
-    including the setup process, how to interact with the contract, and
-    insights into the learning journey.
+- **Architecture and Design:** The effectiveness of your microservices
+  architecture and its adherence to best practices.
+- **Decoupling and Scalability:** The extent to which the services
+  remain independent and scalable.
+- **Code Quality:** Readability, maintainability, and adherence to
+  software engineering best practices.
+- **Testing:** The thoroughness and effectiveness of unit and
+  integration tests.
+- **Documentation and Communication:** The clarity and completeness of
+  the provided documentation.
 
 ## Note to Candidates
 
-This assignment is designed to be an introductory task to Cardano
-development. It’s okay if you’re new to this blockchain or smart
-contract development in general. What we’re looking for is your ability
-to learn and apply new technologies, your problem-solving approach, and
-how you document and communicate your process. Good luck\!
+This assignment is an opportunity to showcase your expertise in
+microservices architecture and distributed systems. We encourage you to
+think critically about communication patterns and scalability while
+implementing a robust and efficient solution. Show us how you design and
+build real-world backend systems. Good luck!

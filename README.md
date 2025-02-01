@@ -8,7 +8,7 @@ to reshape the future of finance. And we need your help.
 
 We’re thrilled that you’re considering joining our team and contributing
 to our vision. As part of our selection process, we invite you to tackle
-one of three challenging tasks designed to showcase your technical
+one of the below challenging tasks designed to showcase your technical
 skills and problem-solving abilities. Your choice among these tasks will
 allow us to better understand your strengths and how you approach
 complex development scenarios.

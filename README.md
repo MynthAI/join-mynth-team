@@ -43,15 +43,6 @@ readability and maintainability.
   principles.
 - **[Read More About Task 2](assignment2/README.md)**
 
-### Task 3: Something Real
-
-**Objective:** Modify ArkType to add a `string.hex` validator.
-
-- **Goal:** Currently, ArkType has a `string.base64` validator, but no
-  `string.hex` validator. Implement and integrate this new validator.
-- **Skills Tested:** TypeScript, open-source contribution, validation
-  logic, and framework modification.
-
 ## Submission Guidelines
 
 1.  **Complete the Task:** Choose one task and complete it to the best

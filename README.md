@@ -43,6 +43,16 @@ readability and maintainability.
   principles.
 - **[Read More About Task 2](assignment2/README.md)**
 
+### Task 3: Something Real
+
+**Objective:** Modify ArkType to allow ranges for `bigint` primitive.
+
+- **Goal:** Currently, ArkType allows ranges for `number` type
+  (e.g. `number >= 0`), but not for `bigint` validator. Implement and
+  integrate ranges for `bigint` so that `bigint >= 0` is valid.
+- **Skills Tested:** TypeScript, open-source contribution, validation
+  logic, and framework modification.
+
 ## Submission Guidelines
 
 1.  **Complete the Task:** Choose one task and complete it to the best
